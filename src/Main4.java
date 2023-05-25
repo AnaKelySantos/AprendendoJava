@@ -2,7 +2,7 @@
 public class Main4 {
     public static void main(String[] args) {
         String grad = "G";
-        int nota = 0;
+        int nota = 75;
 if (nota>= 80) {
          grad = "A";
     System.out.println("A");
