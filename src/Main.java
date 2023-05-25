@@ -13,7 +13,7 @@ public class Main {
         System.out.println(soma);
         int menos = a-b;
         int vezes = a*b;
-        float dividir= a / b;
+        float dividir= (float)a / b;
         int mult = b*=b;
         System.out.println(mult);
         System.out.println(vezes);
