@@ -10,12 +10,16 @@ public class Main2 {
         //System.out.println(res2);
 
         boolean fimDeSemana = true;
-        boolean fazendoSol = true;
+        boolean fazendoSol = false;
 
         //operadores lógicos
 
         boolean vamosAPraia = fimDeSemana && fazendoSol;
 
-        System.out.println(vamosAPraia);
+        System.out.println("sol"+vamosAPraia);
+
+ boolean shopping = fimDeSemana || fazendoSol;
+ System.out.println(shopping);
+
     }
 }
