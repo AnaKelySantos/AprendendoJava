@@ -21,5 +21,9 @@ public class Main2 {
  boolean shopping = fimDeSemana || fazendoSol;
  System.out.println(shopping);
 
+ //operador ternario
+
+ String sms = fimDeSemana?"é fim de semana":"não é";
+ System.out.println(sms);
     }
 }
